@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4f46e5 0%, #06b6d4 100%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    background-color: #ffffff;
+    padding: 45px 40px;
+    border-radius: 20px;
+    max-width: 480px;
+    width: 90%;
+    text-align: center;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+.status-badge {
+    display: inline-block;
+    background-color: #e0e7ff;
+    color: #4f46e5;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 5px 14px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #1f2937;
+    min-height: 90px;
+    margin-bottom: 20px;
+}
+
+.name-signature {
+    font-size: 14px;
+    color: #6b7280;
+    font-weight: 600;
+}
